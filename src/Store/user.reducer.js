@@ -20,7 +20,7 @@ export default function userReducer(state = data, action) {
       };
 
     default:
-      return data;
+      return state;
   }
 }
 
